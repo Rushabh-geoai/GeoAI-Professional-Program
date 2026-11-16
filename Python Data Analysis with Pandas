@@ -1,0 +1,410 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "code",
+      "source": [
+        "temperature=38\n"
+      ],
+      "metadata": {
+        "id": "VeQPjJ6PMnsz"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "temperature=38\n",
+        "if temperature > 35 :\n",
+        "  print(\"it is hot\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "outputId": "f841c0b8-3e7d-4da5-af55-8d389f1d7404",
+        "id": "3Q1X2pzEOL06"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "it is hot\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "temperature=25\n",
+        "if temperature>35:\n",
+        "  print(\"it is hot\")\n",
+        "else:\n",
+        "    print(\"temperature is normal\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "mgfmXygUOYDc",
+        "outputId": "7a4ed3dc-79f4-4593-e6df-9405330423ce"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "temperature is normal\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "temperature=28\n",
+        "\n",
+        "if temperature < 20:\n",
+        "  print(\"cold\")\n",
+        "\n",
+        "elif temperature<=35:\n",
+        "    print(\"Normal\")\n",
+        "\n",
+        "else:\n",
+        "  print(\"Hot\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "7U6TqRe0QSSb",
+        "outputId": "4467e3c7-1e78-4a59-b104-2eb81cc2b85e"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Normal\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "rainfall=50\n",
+        "print(rainfall>100)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "bBPIq--NsBH6",
+        "outputId": "df296fc5-8693-4d27-cc70-2d2c82616f1e"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "False\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "rainfall=50\n",
+        "print(rainfall<100)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "JbtQyc1hsbjS",
+        "outputId": "56c1beec-ee95-40a0-93cd-b69e7e3c1458"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "True\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "rainfall=80\n",
+        "temperature=25\n",
+        "if rainfall>50 and temperature<30:\n",
+        "  print(\"wet and cool day\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "RyeKF7_fstJR",
+        "outputId": "48ef6c56-868a-4aa0-c4a7-53cbebe11a88"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "wet and cool day\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "rainfall=120\n",
+        "temperature=25\n",
+        "\n",
+        "if rainfall>100 or temperature>35:\n",
+        "  print(\"Extreme condition\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "SaH2DiiJtqJT",
+        "outputId": "c3114cf7-04f3-4544-b4de-85d62716c67c"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Extreme condition\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "rainfall=[10,25,60,120,80,40]\n",
+        "print(rainfall[0])\n",
+        "print(rainfall[1])\n",
+        "print(rainfall[2])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "HnhRH9iOuaL6",
+        "outputId": "cc48980f-9d25-4f77-c839-a9b93746a2ed"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "10\n",
+            "25\n",
+            "60\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "rainfall=[10,25,60,120,80,40]\n",
+        "\n",
+        "for rain in rainfall:\n",
+        "  print(rain)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "4a5acx0mu8Nh",
+        "outputId": "168faf26-4afb-4801-de2d-adae9256742b"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "10\n",
+            "25\n",
+            "60\n",
+            "120\n",
+            "80\n",
+            "40\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "rainfall=[10,25,60,120,5,80,40]\n",
+        "\n",
+        "for rain in rainfall:\n",
+        "  if rain>100:\n",
+        "    print(rain,\"Heavy rainfall\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "skzM6Q2awgWn",
+        "outputId": "cfb5a59f-b1f5-4376-eb80-02853e523627"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "120 Heavy rainfall\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "rainfall=[10,25,60,120,5,80,40]\n",
+        "for rain in rainfall:\n",
+        "  if rain<20:\n",
+        "    print(rain,\"light\")\n",
+        "  elif rain<50:\n",
+        "    print(rain,\"moderate\")\n",
+        "  else:\n",
+        "    print(rain,\"heavy\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "cVAZL5MdyY4b",
+        "outputId": "574a057b-a792-4757-86c2-ee6fb0a60723"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "10 light\n",
+            "25 moderate\n",
+            "60 heavy\n",
+            "120 heavy\n",
+            "5 light\n",
+            "80 heavy\n",
+            "40 moderate\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "count=1\n",
+        "\n",
+        "while count<=5:\n",
+        "  print(count)\n",
+        "  count=count+1"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "IHjDS_8hzKUz",
+        "outputId": "41a6d8c9-461d-469e-8867-c24cf1196cf8"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "1\n",
+            "2\n",
+            "3\n",
+            "4\n",
+            "5\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "rainfall=float(input(\"Enter rainfall in mm\"))\n",
+        "if rainfall < 2.5:\n",
+        "  category+\"very light\"\n",
+        "\n",
+        "elif rainfall <15.6:\n",
+        "  category=\"light\"\n",
+        "\n",
+        "elif rainfall <64.5:\n",
+        "  category=\"moderate\"\n",
+        "\n",
+        "elif rainfall <115.6:\n",
+        "  category=\"Heavy\"\n",
+        "\n",
+        "else:\n",
+        "  category+\"very heavy\"\n",
+        "\n",
+        "\n",
+        "print(\"rainfall:\",rainfall,\"mm\")\n",
+        "print(\"classification\",category)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "aavDOPrSzt-a",
+        "outputId": "c64dc0d2-248f-4573-9b36-dd99ec454991"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter rainfall in mm5\n",
+            "rainfall: 5.0 mm\n",
+            "classification light\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
